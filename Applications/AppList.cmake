@@ -2,7 +2,7 @@
 # This file is included in the top-level MITK CMakeLists.txt file to
 # allow early dependency checking
 
-option(MITK_BUILD_APP_Workbench "Build the MITK Workbench executable" ON)
+option(MITK_BUILD_APP_Workbench "Build the MITK Workbench executable" OFF)
 option(MITK_BUILD_APP_FlowBench "Build the MITK FlowBench executable" OFF)
 
 # This variable is fed to ctkFunctionSetupPlugins() macro in the
